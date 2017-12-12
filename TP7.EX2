@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+typedef struct {
+    char joueur[20];
+    int date;
+    char nat[20];
+    char sexe[20];
+    }jeu;
+    void saisir(jeu joueurs[],int n );
+    int main (void){
+    jeu joueurs[50];
+    int n,i;
+    char joueur[20];
+    void saisir(jeu joueus[],int n){
+    int i;
+    for (i=0;i<n;i++)
+        {
+            printf("taper le joueur numero %d",i+1);
+            scanf("%s",joueurs[i].joueur);
+            printf("taper la nationalité du joueur ");
+            scanf("%s",joueurs[i].nat);
+        }
+    }
+     for (i=0;i<n;i++)
+    {
+        if (joueurs[i]='Tunisienne')
+        {
+
+        printf(joueurs[i]);
+        }
+    return 0;
+    }
+
+
+

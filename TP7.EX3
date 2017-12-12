@@ -1,0 +1,46 @@
+#include<stdio.h>
+typedef struct
+{char titrech [10];
+	int duree;
+}chanson;
+typedef struct
+{ int annee;
+	char titredi[10];
+	chanson liste [5];
+	int nbrchanson;
+}disque;
+void remplir(disque t[10],int n)
+{int i,j;
+	for(i=0;i<n;i++)
+	{
+	printf("saisir une annee");
+	scanf("%d",&t[i].annee);
+    printf("saisir un titredi");
+	scanf("%s",t[i].titredi);
+   printf("saisir un nombre chanson");
+	scanf("%d",&t[i].nbrchanson);
+		for (j=0;j<t[i].nbrchanson;j++);
+	{printf("saisir titrech");
+    scanf("%s",t[i].chansonliste[j].titrech);
+	printf("saisir une duree");
+		scanf("%d",&t[i].chansonliste[j].duree);}
+	}
+    void afficher ( t[10], int n)
+{int i;
+	for (i=0;i<n;i++)
+	printf ("%d %s %d %s %d",t[i].annee,t[i].titredi,t[i].nbrchanson,t[i].listechanson[j].titre,t[i].listechanson[j].duree);
+	}
+void recherche(ch,t[i].titrech)
+		{ if (strcmp(t[i].chansonliste[j].titre),(ch))==0
+printf("%d",t[i].chansonliste[j].duree);
+			}
+
+
+	int main (void)
+	printf("saisir un entier");
+	scanf("%d" ,&n);
+	remplir (t,n);
+	printf("saisir une chanson");
+	scanf("%s",ch);
+recherche(ch,t[i].titrech)
+}

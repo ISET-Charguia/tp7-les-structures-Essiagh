@@ -1,0 +1,31 @@
+#include <stdio.h>
+typedef struct
+{int serie;
+char processeur [10];
+int vitesse;
+int taille ;
+} ordinateurs;
+int main (void)
+{ordinateurs o1,o2;
+	printf ("donner le numéro de série");
+	scanf("%d",&o1.serie);
+	printf("donner le processeur");
+	scanf("%s",o1.processeur);
+	printf ("donner le vitesse");
+	scanf("%d",&o1.vitesse);
+	printf("donner la taille");
+	scanf("%d",&o1.taille);
+    printf ("donner le numéro de série");
+	scanf("%d",&o2.serie);
+	printf("donner le processeur");
+	scanf("%s",o2.processeur);
+	printf ("donner le vitesse");
+	scanf("%d",&o2.vitesse);
+	printf("donner la taille");
+	scanf("%d",&o2.taille);
+if (o1.vitesse>o2.vitesse)
+			printf ("lordinateur %d est plus rapide",o1.serie);
+
+else
+		printf ("lordinateur %d est plus rapide",o2.serie);
+}
